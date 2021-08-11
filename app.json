@@ -24,19 +24,19 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1295756"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1f2e07b7c28c4c734775879b23dff923"
     },
     "TG_BOT_TOKEN": {
       "description": "get this value from @BotFather",
-      "value": ""
+      "value": "1942726081:AAF9I0GcP6sLgT4iGY2q-7aK9OZc3s4WCiU"
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
-      "value": ""
+      "value": "-1001360065014"
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
@@ -48,15 +48,15 @@
     },
     "INDEX_LINK": {
       "description": "Enter your index link here...dont add '/' at the end of the link",
-      "value": ""
+      "value": "https://mmleech.mmleeech.workers.dev/0:"
     },
     "RCLONE_CONFIG": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
-      "required": false
+      "required": true
     },
     "DESTINATION_FOLDER": {
       "description": "Enter your Destination folder in which you want to upload yoyr file.",
-      "required": false
+      "required": true
     },
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
